@@ -1,0 +1,36 @@
+
+:root{--navy:#102d68;--blue:#2e69b2;--pale:#eaf2fc;--ink:#172033;--muted:#687386;--bg:#f7f8fc;--white:#fff;--shadow:0 12px 34px rgba(16,45,104,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:var(--blue)}img{max-width:100%;display:block}.site-header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:50;box-shadow:0 5px 20px #071b4330}.header-inner{max-width:1200px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;min-width:0}.brand img{width:58px;height:58px;object-fit:contain;border-radius:50%;background:#fff}.brand strong{display:block;font-size:1.05rem;line-height:1.2}.brand small{display:block;color:#dce7fb;font-size:.78rem}.menu-toggle{display:none;border:1px solid #ffffff80;background:transparent;color:white;border-radius:9px;padding:8px 12px;font-size:1.3rem}.main-nav{display:flex;align-items:center;justify-content:flex-end;gap:15px;flex-wrap:wrap}.main-nav a{color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;padding:7px 0;border-bottom:2px solid transparent}.main-nav a:hover,.main-nav a.active{border-color:#a9cafa}.container{width:min(1120px,calc(100% - 36px));margin:0 auto}.hero{min-height:390px;display:grid;place-items:center;text-align:center;color:#fff;padding:70px 20px;background:linear-gradient(#071b43a8,#071b43a8),url('images/image1.jpeg') center/cover no-repeat}.hero-inner{max-width:820px}.hero h1{font-size:clamp(2.2rem,5vw,4.3rem);line-height:1.12;margin:0 0 16px}.hero p{font-size:1.15rem}.section{padding:58px 0}.section-heading{text-align:center;margin:0 auto 30px;max-width:760px}.section-heading h2{font-size:clamp(1.7rem,3vw,2.5rem);color:var(--navy);margin:0 0 8px}.section-heading p{color:var(--muted);margin:0}.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:22px}.card{background:#fff;border-radius:26px;padding:24px;box-shadow:var(--shadow);overflow:hidden}.card h3{color:var(--navy);margin:12px 0 7px}.card p{color:#586477}.card img{width:100%;height:210px;object-fit:cover;border-radius:18px;cursor:zoom-in}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:12px 22px;background:var(--navy);color:#fff;text-decoration:none;font-weight:700;box-shadow:0 7px 18px #102d6830;cursor:pointer}.btn:hover{background:#1d4b99}.btn.light{background:#eaf2fc;color:var(--navy)}.btn.whatsapp{background:#168c4a}.btn-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}.page-banner{padding:58px 20px;text-align:center;background:linear-gradient(120deg,#102d68,#2e69b2);color:#fff}.page-banner h1{font-size:clamp(2rem,4vw,3rem);margin:0 0 8px}.page-banner p{margin:0;color:#e2ecfb}.content-card{background:#fff;border-radius:26px;padding:clamp(22px,4vw,42px);box-shadow:var(--shadow);margin:34px auto}.content-card h2,.content-card h3{color:var(--navy)}.member-card{text-align:center}.member-card img{width:165px;height:165px;border-radius:50%;object-fit:cover;margin:0 auto 15px;border:7px solid #fff;outline:4px solid #dce8f6}.member-card .role{color:var(--blue);font-weight:700}.muted{color:var(--muted)}.read-more{display:none}.read-more.show{display:block}.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.gallery-grid img{height:165px;width:100%;object-fit:cover;border-radius:14px;cursor:zoom-in}.site-footer{background:#0b204b;color:#dce7fb;text-align:center;padding:28px 18px;margin-top:50px}.site-footer a{color:#fff}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-weight:700;color:var(--navy)}input,select,textarea{width:100%;padding:12px 13px;border:1px solid #cbd5e1;border-radius:11px;font:inherit;background:#fff}textarea{min-height:130px;resize:vertical}.note{background:var(--pale);border-left:4px solid var(--blue);padding:14px 17px;border-radius:10px;color:#34435c}.faq-item{padding:18px 0;border-bottom:1px solid #e5eaf2}.faq-item h3{margin:0 0 7px}.popup-wrap{position:fixed;right:18px;bottom:18px;z-index:80;max-width:340px;width:calc(100% - 36px)}.popup{background:#fff;border-radius:18px;padding:18px 48px 18px 18px;box-shadow:0 12px 40px #071b4350;border:1px solid #e4eaf4;position:relative}.popup a{font-weight:700;text-decoration:none;color:var(--navy)}.popup-close{position:absolute;right:12px;top:8px;border:0;background:transparent;font-size:1.4rem;cursor:pointer;color:#687386}.popup-dots{display:flex;gap:5px;margin-top:9px}.popup-dots span{width:6px;height:6px;border-radius:50%;background:#cbd5e1}.popup-dots span.active{background:var(--blue)}.image-modal{display:none;position:fixed;inset:0;background:#050b18ed;z-index:100;align-items:center;justify-content:center;padding:25px}.image-modal.open{display:flex}.image-modal img{max-height:90vh;max-width:95vw;object-fit:contain}.image-modal button{position:absolute;top:18px;right:22px;color:#fff;background:transparent;border:0;font-size:2rem;cursor:pointer}.social-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.checkline{display:flex;align-items:flex-start;gap:10px}.checkline input{width:auto;margin-top:7px}
+@media(max-width:900px){.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:82px;left:0;right:0;background:var(--navy);padding:16px 22px 22px;flex-direction:column;align-items:stretch;gap:7px}.main-nav.open{display:flex}.main-nav a{padding:10px 4px}.header-inner{min-height:82px}.brand img{width:48px;height:48px}}
+@media(max-width:640px){.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero{min-height:340px}.section{padding:42px 0}.card{padding:19px}.brand strong{font-size:.92rem}.brand small{font-size:.7rem}}
+
+/* PAGE BACKGROUND IMAGES */
+
+/* HOME PAGE */
+body.home-page {
+    background-image: url("images/image52.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CONTACT PAGE */
+body.contact-page {
+    background-image: url("images/image51.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE BACKGROUND FIX */
+@media (max-width: 768px) {
+    body.home-page,
+    body.member-page,
+    body.songs-page,
+    body.contact-page,
+    body.tours-page,
+    body.programmes-page,
+    body.church-services-page {
+        background-attachment: scroll;
+    }
+}
