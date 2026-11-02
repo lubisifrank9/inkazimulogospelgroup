@@ -8,7 +8,7 @@
 
 /* HOME PAGE */
 body.home-page {
-    background-image: url("images/image52.jpg");
+    background-image: url("images/image1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body.home-page {
 
 /* CONTACT PAGE */
 body.contact-page {
-    background-image: url("images/image51.jpg");
+    background-image: url("images/image1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
